@@ -14,6 +14,6 @@ export default {
     },
   },
   plugins: [
-      // Add this line to enable the plugin
+      require('tailwind-scrollbar'), // Add this line to enable the plugin
   ],
 };
