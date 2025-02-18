@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --port 3016",
-    "build": "next build",
-    "start": "next start",
+    "build": "next build --port 3016",
+    "start": "next start --port 3016",
     "lint": "next lint"
   },
   "dependencies": {
@@ -35,12 +35,12 @@
     "zustand": "^5.0.3"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
+    "@eslint/eslintrc": "^3.2.0",
     "@types/bcrypt": "^5.0.2",
     "@types/leaflet": "^1.9.16",
     "@types/react-date-range": "^1.4.9",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.6",
+    "eslint": "^9.20.1",
+    "eslint-config-next": "^15.1.6",
     "postcss": "^8",
     "prisma": "^6.3.1",
     "tailwindcss": "^3.4.1"
